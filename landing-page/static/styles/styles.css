@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: black;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.logo {
+    margin-right: auto;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+.nav-link {
+    padding: 0.5rem 0.5rem;
+    color: rgb(0, 195, 255);
+    margin: 0 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.hero {
+    height: 100vh;
+    color: rgb(3, 165, 214);
+    margin-top: 20%;
+    text-align: center;
+}
+.ocickle-product-line {
+    color: black;
+}
+.cta{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.cta-button {
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+.footer-links{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.footer-links div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    align-items: flex-start;
+}
+.footer-links label {
+    color: rgb(0, 247, 255);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.footer-links a {
+    color: rgb(0, 195, 255);
+    margin: 0.2rem 0;
+}
+footer p {
+    font-weight: bold;
+    float: left;
+    margin-left: 2rem;
+}
+footer a {
+    color: rgb(0, 195, 255);
+}
