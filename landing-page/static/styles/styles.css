@@ -57,6 +57,43 @@ a {
     font-weight: bold;
 }
 
+/* PRICING */
+#pricing {
+    margin-bottom: 2rem;
+    padding: 3rem 0;
+}
+#pricing h1 {
+    text-align: center;
+    color: rgb(3, 165, 214);
+}
+#pricing > p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #000;
+}
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 195, 255);
+    padding: 2rem;
+    border-radius: 8px;
+}
+.price {
+    color: rgb(3, 165, 214);
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.percentage {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 /* HOW IT WORKS */
 #guide {
     margin: 2rem 0;
