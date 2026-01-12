@@ -57,6 +57,38 @@ a {
     font-weight: bold;
 }
 
+/* HOW IT WORKS */
+#guide {
+    margin: 2rem 0;
+    padding: 3rem 0;
+    background-color: rgba(71, 255, 240, 0.26);
+}
+.no-of-steps {
+    color: rgb(3, 165, 214);
+    font-size: 2rem;
+    font-weight: bold;
+}
+#guide > p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #000;
+}
+#guide h1 {
+    text-align: center;
+    color: rgb(3, 165, 214);
+}
+.steps {
+    margin: 0 2rem;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 2rem;
+}
+.step {
+    line-height: normal;
+    margin-bottom: 1.5rem;
+}
+
 footer {
     width: 100%;
     background-color: black;
