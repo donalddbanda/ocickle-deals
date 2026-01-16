@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
+
 header {
     background: black;
     padding: 10px 0;
@@ -16,17 +18,21 @@ header {
     width: 100%;
     margin-bottom: 1rem;
 }
+
 .logo {
     margin-right: auto;
 }
+
 nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 a {
     text-decoration: none;
 }
+
 .nav-link {
     padding: 0.5rem 0.5rem;
     color: rgb(0, 195, 255);
@@ -34,20 +40,24 @@ a {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 .hero {
     height: 100vh;
     color: rgb(3, 165, 214);
     margin-top: 20%;
     text-align: center;
 }
+
 .ocickle-product-line {
     color: black;
 }
-.cta{
+
+.cta {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
+
 .cta-button {
     padding: 1.5rem;
     border-radius: 8px;
@@ -62,21 +72,25 @@ a {
     margin-bottom: 2rem;
     padding: 3rem 0;
 }
+
 #pricing h1 {
     text-align: center;
     color: rgb(3, 165, 214);
 }
-#pricing > p {
+
+#pricing>p {
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 2rem;
     color: #000;
 }
+
 .pricing-cards {
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
+
 .pricing-card {
     display: flex;
     flex-direction: column;
@@ -84,12 +98,14 @@ a {
     padding: 2rem;
     border-radius: 8px;
 }
+
 .price {
     color: rgb(3, 165, 214);
     font-weight: bold;
     margin: 1rem 0;
 }
-.percentage {
+
+.escrow-charge {
     font-size: 3rem;
     font-weight: bold;
 }
@@ -100,27 +116,32 @@ a {
     padding: 3rem 0;
     background-color: rgba(71, 255, 240, 0.26);
 }
+
 .no-of-steps {
     color: rgb(3, 165, 214);
     font-size: 2rem;
     font-weight: bold;
 }
-#guide > p {
+
+#guide>p {
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 2rem;
     color: #000;
 }
+
 #guide h1 {
     text-align: center;
     color: rgb(3, 165, 214);
 }
+
 .steps {
     margin: 0 2rem;
     border: 2px solid #000;
     border-radius: 8px;
     padding: 2rem;
 }
+
 .step {
     line-height: normal;
     margin-bottom: 1.5rem;
@@ -134,10 +155,12 @@ footer {
     padding: 2rem 0;
     margin-top: 2rem;
 }
-.footer-links{
+
+.footer-links {
     display: flex;
     margin-bottom: 1rem;
 }
+
 .footer-links div {
     width: 50%;
     display: flex;
@@ -145,20 +168,24 @@ footer {
     margin: 0 2rem;
     align-items: flex-start;
 }
+
 .footer-links label {
     color: rgb(0, 247, 255);
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
+
 .footer-links a {
     color: rgb(0, 195, 255);
     margin: 0.2rem 0;
 }
+
 footer p {
     font-weight: bold;
     float: left;
     margin-left: 2rem;
 }
+
 footer a {
     color: rgb(0, 195, 255);
 }
