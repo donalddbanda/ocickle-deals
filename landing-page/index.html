@@ -26,10 +26,48 @@
             <p class="ocickle-product-line">Powered by Ocickle</p>
 
             <div class="cta">
-                <a href="#guide" class="cta-button">Know how it works</a>
+                <a href="#guide" class="cta-button">Know How It Works</a>
             </div>
         </section>
     </main>
+
+    <section id="guide">
+        <h1>How it works</h1>
+        <p>Just <span class="no-of-steps">5</span> simple steps and your money is protected.</p>
+        <div class="steps">
+            <div class="step">
+                <h2>1. Create <b>Trade</b></h1>
+                    <p>Login and click the create trade button. This will take you to a <b>Create Trade Form</b></p>
+            </div>
+            <div class="step">
+                <h2>2. Fill the form</h1>
+                    <p>
+                        Fill in the required details such as seller information, add photos of cart items, total amount,
+                        and shipping details.
+                    </p>
+            </div>
+            <div class="step">
+                <h2>3. Share trade link</h1>
+                    <p>
+                        After creating the trade, share the generated trade link with the seller to proceed with the
+                        transaction.
+                    </p>
+            </div>
+            <div class="step">
+                <h2>4. Deposit funds</h1>
+                    <p>Deposit the total amount into the escrow account to secure the transaction.</p>
+            </div>
+            <div class="step">
+                <h2>5. Seller ships items</h1>
+                    <p>
+                        The seller will handover the item(s) to the courier you selected when entering trade details.
+                        Once the item(s) have been handedover to the courier, your funds will be released to the seller
+                        and the courier will handle the rest.
+                    </p>
+            </div>
+        </div>
+    </section>
+
 
     <section id="pricing">
         <h1>Pricing</h1>
@@ -63,38 +101,26 @@
                 </ul>
             </div>
         </div>
-    </section>
 
-    <section id="guide">
-        <h1>How it works</h1>
-        <p>Just <span class="no-of-steps">5</span> simple steps and your money is protected.</p>
-        <div class="steps">
-            <div class="step">
-                <h2>1. Create <b>Trade</b></h1>
-                    <p>Login and click the create trade button. This will take you to a <b>Create Trade Form</b></p>
+        <div class="cost-calculator">
+            <div class="cost-calculator-form">
+                <h2>Cost calculator</h2>
+                <form>
+                    <label for="deal-amount">Deal amount</label>
+                    <input type="number" name="amount" id="amount" placeholder="Deal amount" />
+
+                    <button type="submit">Calculate Total Cost</button>
+                </form>
             </div>
-            <div class="step">
-                <h2>2. Fill the form</h1>
-                    <p>Fill in the required details such as seller information, add photos of cart items, total amount,
-                        and shipping details.</p>
-            </div>
-            <div class="step">
-                <h2>3. Share trade link</h1>
-                    <p>After creating the trade, share the generated trade link with the seller to proceed with the
-                        transaction.</p>
-            </div>
-            <div class="step">
-                <h2>4. Deposit funds</h1>
-                    <p>Deposit the total amount into the escrow account to secure the transaction.</p>
-            </div>
-            <div class="step">
-                <h2>5. Seller ships items</h1>
-                    <p>The seller will handover the item(s) to the courier you selected when entering trade details.
-                        Once the item(s) have been handedover to the courier, your funds will be released to the seller
-                        and the courier will handle the rest.</p>
+
+            <div class="cost-breakdown">
+                <h3 id="escrow-fee">Ecsrow Fee: MWK 0</h3>
+                <h3 id="payment-processing-fee">Payment Processing Fee: MWK 0</h3>
+                <h3 id="escrow-cost">Total Cost: MWK 0</h3>
             </div>
         </div>
     </section>
+
 
     <footer>
         <div class="footer-links">
@@ -112,6 +138,8 @@
         <p>&copy;2026 Ocickle Deals</p>
         <p>Made by <a href="http://ocickle.xyz">Ocickle</a></p>
     </footer>
+
+    <script type="module" src="./static/js/main.js"></script>
 </body>
 
 </html>
